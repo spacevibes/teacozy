@@ -18,16 +18,19 @@ a {
   color: seashell;
 }
 
-.header-nav {
-  font-size: 22px;
-  display: flex;
+.flex-it {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+header {
   position: fixed;
   align-items: center;
   border-bottom: 1px solid seashell;
   height: 69px;
   width: 100%;
   background-color: black;
-  opacity: 0.9;
   z-index: 1;
 }
 
